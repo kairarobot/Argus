@@ -1,0 +1,6 @@
+framework module Argus {
+  umbrella header "Argus-umbrella.h"
+
+  export *
+  module * { export * }
+}

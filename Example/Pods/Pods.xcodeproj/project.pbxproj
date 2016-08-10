@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11BBBA25BA37BA4A60E7D8900D7C747A /* ArgusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386AD26D6105AF6BF2AB0B39B9014E3 /* ArgusVC.swift */; };
+		18DEE01EA3CCEA7941DF178206A90BD7 /* Argus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E0726EB2D6824F07DF84C1EA12284E /* Argus-dummy.m */; };
+		55F08759F2106CA392B00564F624CFF9 /* Pods-Argus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A865DF3BCEED2111FBB8081A40510 /* Pods-Argus_Example-dummy.m */; };
+		7182FB73A7C3C6CE64B784AB9A758E3E /* Pods-Argus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD8DDBEC9FF4EEE0DEBC11920B15A1A /* Pods-Argus_Tests-dummy.m */; };
+		97963FFD1B5569D6D996078931046AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9DFF4C925DACE03A09206EF0D3298C15 /* Pods-Argus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CE235BD276F61ABC656D4C379319D8 /* Pods-Argus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD7D2939009EAE8284025FD954D51D93 /* Pods-Argus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE32EA1D4FDC3AD6AB6FC15F22BE52DF /* Pods-Argus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2F94B1B13B39BB2C7A59549E4D06DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CAC0914498FA8A917B8AEABCCC10E8FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DB7F842549B4E0C2BB026EF26228FB61 /* Argus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE2D33ED683745F384AA07C9B80396D /* Argus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC63315037577EDB76719202003E0740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787AB9898DCCA6730D983820DC4EC4B2;
+			remoteInfo = Argus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01201B2E58EF18B61A50A8B8916DFBD7 /* Pods_Argus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Argus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0225EA0A5D16A3A21FB28CD4288A9FEA /* Pods_Argus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Argus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E0726EB2D6824F07DF84C1EA12284E /* Argus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Argus-dummy.m"; sourceTree = "<group>"; };
+		0CBD17B741E4928698EE716E99984006 /* Pods-Argus_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Argus_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1386AD26D6105AF6BF2AB0B39B9014E3 /* ArgusVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArgusVC.swift; sourceTree = "<group>"; };
+		3CB6357CF05D3DCBD3CBD6B94C2232E6 /* Pods-Argus_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Argus_Tests-resources.sh"; sourceTree = "<group>"; };
+		3E78E0F3A3A89891EF59B2F9AEA9E775 /* Argus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Argus-prefix.pch"; sourceTree = "<group>"; };
+		49CE235BD276F61ABC656D4C379319D8 /* Pods-Argus_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Argus_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4CFFEE485BAF03AEA1389B1FCBFE3B21 /* Pods-Argus_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Argus_Example-resources.sh"; sourceTree = "<group>"; };
+		4FE2D33ED683745F384AA07C9B80396D /* Argus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Argus-umbrella.h"; sourceTree = "<group>"; };
+		56ED4C28641636AD48FB10222BC5AAF0 /* Argus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Argus.xcconfig; sourceTree = "<group>"; };
+		61AEA6AB6EACC100C1DF17EBAC2A35B1 /* Pods-Argus_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Argus_Tests.modulemap"; sourceTree = "<group>"; };
+		65E2A26A902D4DA47E04264CB6C10994 /* Pods-Argus_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Argus_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B28AA2A1D031DB60B4294C147F72414 /* Pods-Argus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Argus_Example.release.xcconfig"; sourceTree = "<group>"; };
+		746BE7FBECF2B7DC4742D15A521CAB3E /* Pods-Argus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Argus_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B8B790ADEEC23DD2B179DA6F9D29C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900C1B7F42E464F9F4E52975C4B52CF5 /* Pods-Argus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Argus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABA808C0063415B274F03CFC978F131B /* Pods-Argus_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Argus_Example.modulemap"; sourceTree = "<group>"; };
+		B4A521982154494606D908ECFCB4C51A /* Pods-Argus_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Argus_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA612A0F9FE4FAC8332C78DE65E12C61 /* Pods-Argus_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Argus_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BFDFDC34D26A7EE1A3CF282E94158CE6 /* Pods-Argus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Argus_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C75AE2A767977892F61D9535E756AE43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFB228F20168D47D4A3B1F7E5BDA068B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7265431389DCAF19F6C6F4788CD57C8 /* Pods-Argus_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Argus_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E40F9BB94E17C3D721CED7EA67057B81 /* Argus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Argus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5367244900D1F821F50CF1463371D55 /* Argus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Argus.modulemap; sourceTree = "<group>"; };
+		E6789EFF7BDA1974D222229E31154D9A /* Pods-Argus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Argus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECD8DDBEC9FF4EEE0DEBC11920B15A1A /* Pods-Argus_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Argus_Tests-dummy.m"; sourceTree = "<group>"; };
+		EE32EA1D4FDC3AD6AB6FC15F22BE52DF /* Pods-Argus_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Argus_Example-umbrella.h"; sourceTree = "<group>"; };
+		F56A865DF3BCEED2111FBB8081A40510 /* Pods-Argus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Argus_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CD6A61849328697BDD94DD9CAEBE7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97963FFD1B5569D6D996078931046AD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D458ED0527453650AB498BFB3419E4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F94B1B13B39BB2C7A59549E4D06DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5760C186FA9CFAC794D9DE68BCC038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC0914498FA8A917B8AEABCCC10E8FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		426525FBB08D094216DFC82F25BF66DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40F9BB94E17C3D721CED7EA67057B81 /* Argus.framework */,
+				01201B2E58EF18B61A50A8B8916DFBD7 /* Pods_Argus_Example.framework */,
+				0225EA0A5D16A3A21FB28CD4288A9FEA /* Pods_Argus_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D99B6AEA06AAF5803086F1103592F4 /* Argus */ = {
+			isa = PBXGroup;
+			children = (
+				EBC2BF4F857912303A434B7225533C04 /* Argus */,
+				C077C4E98FE69A6BABAC6FAAA0A4C2D1 /* Support Files */,
+			);
+			name = Argus;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D792AC08854926463370E88362F0A1D4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				426525FBB08D094216DFC82F25BF66DD /* Products */,
+				C0745E28E63DF5E14A909950BC6EC7FC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE3DA476F1E73DE7D71BCD189836FF2 /* Pods-Argus_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB228F20168D47D4A3B1F7E5BDA068B /* Info.plist */,
+				61AEA6AB6EACC100C1DF17EBAC2A35B1 /* Pods-Argus_Tests.modulemap */,
+				B4A521982154494606D908ECFCB4C51A /* Pods-Argus_Tests-acknowledgements.markdown */,
+				900C1B7F42E464F9F4E52975C4B52CF5 /* Pods-Argus_Tests-acknowledgements.plist */,
+				ECD8DDBEC9FF4EEE0DEBC11920B15A1A /* Pods-Argus_Tests-dummy.m */,
+				BA612A0F9FE4FAC8332C78DE65E12C61 /* Pods-Argus_Tests-frameworks.sh */,
+				3CB6357CF05D3DCBD3CBD6B94C2232E6 /* Pods-Argus_Tests-resources.sh */,
+				49CE235BD276F61ABC656D4C379319D8 /* Pods-Argus_Tests-umbrella.h */,
+				E6789EFF7BDA1974D222229E31154D9A /* Pods-Argus_Tests.debug.xcconfig */,
+				746BE7FBECF2B7DC4742D15A521CAB3E /* Pods-Argus_Tests.release.xcconfig */,
+			);
+			name = "Pods-Argus_Tests";
+			path = "Target Support Files/Pods-Argus_Tests";
+			sourceTree = "<group>";
+		};
+		B9507CAE85119A5C2B86D9E65351DABB /* Pods-Argus_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C75AE2A767977892F61D9535E756AE43 /* Info.plist */,
+				ABA808C0063415B274F03CFC978F131B /* Pods-Argus_Example.modulemap */,
+				65E2A26A902D4DA47E04264CB6C10994 /* Pods-Argus_Example-acknowledgements.markdown */,
+				D7265431389DCAF19F6C6F4788CD57C8 /* Pods-Argus_Example-acknowledgements.plist */,
+				F56A865DF3BCEED2111FBB8081A40510 /* Pods-Argus_Example-dummy.m */,
+				0CBD17B741E4928698EE716E99984006 /* Pods-Argus_Example-frameworks.sh */,
+				4CFFEE485BAF03AEA1389B1FCBFE3B21 /* Pods-Argus_Example-resources.sh */,
+				EE32EA1D4FDC3AD6AB6FC15F22BE52DF /* Pods-Argus_Example-umbrella.h */,
+				BFDFDC34D26A7EE1A3CF282E94158CE6 /* Pods-Argus_Example.debug.xcconfig */,
+				6B28AA2A1D031DB60B4294C147F72414 /* Pods-Argus_Example.release.xcconfig */,
+			);
+			name = "Pods-Argus_Example";
+			path = "Target Support Files/Pods-Argus_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0745E28E63DF5E14A909950BC6EC7FC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9507CAE85119A5C2B86D9E65351DABB /* Pods-Argus_Example */,
+				AEE3DA476F1E73DE7D71BCD189836FF2 /* Pods-Argus_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C077C4E98FE69A6BABAC6FAAA0A4C2D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5367244900D1F821F50CF1463371D55 /* Argus.modulemap */,
+				56ED4C28641636AD48FB10222BC5AAF0 /* Argus.xcconfig */,
+				09E0726EB2D6824F07DF84C1EA12284E /* Argus-dummy.m */,
+				3E78E0F3A3A89891EF59B2F9AEA9E775 /* Argus-prefix.pch */,
+				4FE2D33ED683745F384AA07C9B80396D /* Argus-umbrella.h */,
+				7B8B790ADEEC23DD2B179DA6F9D29C68 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Argus";
+			sourceTree = "<group>";
+		};
+		D792AC08854926463370E88362F0A1D4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50D99B6AEA06AAF5803086F1103592F4 /* Argus */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EBC2BF4F857912303A434B7225533C04 /* Argus */ = {
+			isa = PBXGroup;
+			children = (
+				FD16C288E3944F2C43585F816898CC23 /* Classes */,
+			);
+			path = Argus;
+			sourceTree = "<group>";
+		};
+		FD16C288E3944F2C43585F816898CC23 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1386AD26D6105AF6BF2AB0B39B9014E3 /* ArgusVC.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		320A67684FD3C7A8E0445D883B8ECEBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D2939009EAE8284025FD954D51D93 /* Pods-Argus_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9AEB99BC000DA8044BEBBDF2E3EB71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F842549B4E0C2BB026EF26228FB61 /* Argus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8305D199CF0A7CC7C728FDD79305F313 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFF4C925DACE03A09206EF0D3298C15 /* Pods-Argus_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		171DA8B897533FB580D527C1FCD8F007 /* Pods-Argus_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BC0746F829E160E88EF1B4675D1B25 /* Build configuration list for PBXNativeTarget "Pods-Argus_Tests" */;
+			buildPhases = (
+				02BB53E53957FC9AAC4BD432BF13258E /* Sources */,
+				FF5760C186FA9CFAC794D9DE68BCC038 /* Frameworks */,
+				8305D199CF0A7CC7C728FDD79305F313 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Argus_Tests";
+			productName = "Pods-Argus_Tests";
+			productReference = 0225EA0A5D16A3A21FB28CD4288A9FEA /* Pods_Argus_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E13A6BFE031EBD8151584B1FCF17DB7 /* Pods-Argus_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C00A9E4B009B2CE488B783A9882D47 /* Build configuration list for PBXNativeTarget "Pods-Argus_Example" */;
+			buildPhases = (
+				362C582FC1F659A0E531D809D248478F /* Sources */,
+				D458ED0527453650AB498BFB3419E4AB /* Frameworks */,
+				320A67684FD3C7A8E0445D883B8ECEBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95121B06FB78E00C2B6A4D4432C6DA49 /* PBXTargetDependency */,
+			);
+			name = "Pods-Argus_Example";
+			productName = "Pods-Argus_Example";
+			productReference = 01201B2E58EF18B61A50A8B8916DFBD7 /* Pods_Argus_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		787AB9898DCCA6730D983820DC4EC4B2 /* Argus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E75B909C3AD8D318B06DC88E351302 /* Build configuration list for PBXNativeTarget "Argus" */;
+			buildPhases = (
+				4BFE0BFB8DCA3D5B166C43AEAC2C300F /* Sources */,
+				9CD6A61849328697BDD94DD9CAEBE7FC /* Frameworks */,
+				6A9AEB99BC000DA8044BEBBDF2E3EB71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Argus;
+			productName = Argus;
+			productReference = E40F9BB94E17C3D721CED7EA67057B81 /* Argus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 426525FBB08D094216DFC82F25BF66DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				787AB9898DCCA6730D983820DC4EC4B2 /* Argus */,
+				2E13A6BFE031EBD8151584B1FCF17DB7 /* Pods-Argus_Example */,
+				171DA8B897533FB580D527C1FCD8F007 /* Pods-Argus_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02BB53E53957FC9AAC4BD432BF13258E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7182FB73A7C3C6CE64B784AB9A758E3E /* Pods-Argus_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362C582FC1F659A0E531D809D248478F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F08759F2106CA392B00564F624CFF9 /* Pods-Argus_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFE0BFB8DCA3D5B166C43AEAC2C300F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DEE01EA3CCEA7941DF178206A90BD7 /* Argus-dummy.m in Sources */,
+				11BBBA25BA37BA4A60E7D8900D7C747A /* ArgusVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95121B06FB78E00C2B6A4D4432C6DA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Argus;
+			target = 787AB9898DCCA6730D983820DC4EC4B2 /* Argus */;
+			targetProxy = CC63315037577EDB76719202003E0740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075C44DF6C85E8C57923C6D9065F0D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDFDC34D26A7EE1A3CF282E94158CE6 /* Pods-Argus_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Argus_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Argus_Example/Pods-Argus_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Argus_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21451293A66B5807C377644BE7525FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B28AA2A1D031DB60B4294C147F72414 /* Pods-Argus_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Argus_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Argus_Example/Pods-Argus_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Argus_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50CAE6E1E446B2A0BEB38599487AB82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6789EFF7BDA1974D222229E31154D9A /* Pods-Argus_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Argus_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Argus_Tests/Pods-Argus_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Argus_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5339491500EF8BC00E36A53ECC48E7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56ED4C28641636AD48FB10222BC5AAF0 /* Argus.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Argus/Argus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Argus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Argus/Argus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Argus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C30C7650114CEF568A41789553A815A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746BE7FBECF2B7DC4742D15A521CAB3E /* Pods-Argus_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Argus_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Argus_Tests/Pods-Argus_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Argus_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95AB5D6EE6E0FC91E14A3E4FA61C4E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56ED4C28641636AD48FB10222BC5AAF0 /* Argus.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Argus/Argus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Argus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Argus/Argus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Argus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C00A9E4B009B2CE488B783A9882D47 /* Build configuration list for PBXNativeTarget "Pods-Argus_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075C44DF6C85E8C57923C6D9065F0D05 /* Debug */,
+				21451293A66B5807C377644BE7525FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E75B909C3AD8D318B06DC88E351302 /* Build configuration list for PBXNativeTarget "Argus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AB5D6EE6E0FC91E14A3E4FA61C4E03 /* Debug */,
+				5339491500EF8BC00E36A53ECC48E7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BC0746F829E160E88EF1B4675D1B25 /* Build configuration list for PBXNativeTarget "Pods-Argus_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CAE6E1E446B2A0BEB38599487AB82C /* Debug */,
+				6C30C7650114CEF568A41789553A815A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

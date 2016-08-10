@@ -5,11 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/Argus.svg?style=flat)](http://cocoapods.org/pods/Argus)
 [![Platform](https://img.shields.io/cocoapods/p/Argus.svg?style=flat)](http://cocoapods.org/pods/Argus)
 
+## About
+
+Argus provides an augmented reality add-on to your view controllers. It is ideal for layering static GUI on top of the augmented reality viewer. To use Argus, simply cast your view controller(s) to `ArgusVC` and run the build on your iPhone. The simulator will not work. Please contact me if you have any issues.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+Swift, iPhone 
 
 ## Installation
 

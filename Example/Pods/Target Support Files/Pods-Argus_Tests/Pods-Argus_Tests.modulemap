@@ -1,0 +1,6 @@
+framework module Pods_Argus_Tests {
+  umbrella header "Pods-Argus_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

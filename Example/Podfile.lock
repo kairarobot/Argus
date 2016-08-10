@@ -1,0 +1,16 @@
+PODS:
+  - Argus (0.1.0)
+
+DEPENDENCIES:
+  - Argus (from `../`)
+
+EXTERNAL SOURCES:
+  Argus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Argus: ce37ef97d9265105cf0037ade2a3fe8c692b3c98
+
+PODFILE CHECKSUM: b9d127003a43f0399a0ded8f86636dea00aa5211
+
+COCOAPODS: 1.0.1
