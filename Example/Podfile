@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Argus_Example' do
+  pod 'Argus', :path => '../'
+
+  target 'Argus_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
