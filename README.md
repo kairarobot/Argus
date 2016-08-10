@@ -1,9 +1,8 @@
 # Argus
 
-[![CI Status](http://img.shields.io/travis/Kaira Villanueva/Argus.svg?style=flat)](https://travis-ci.org/Kaira Villanueva/Argus)
-[![Version](https://img.shields.io/cocoapods/v/Argus.svg?style=flat)](http://cocoapods.org/pods/Argus)
-[![License](https://img.shields.io/cocoapods/l/Argus.svg?style=flat)](http://cocoapods.org/pods/Argus)
-[![Platform](https://img.shields.io/cocoapods/p/Argus.svg?style=flat)](http://cocoapods.org/pods/Argus)
+[![Version](https://img.shields.io/badge/version-0.1.0-ff69b4.svg)](https://github.com/KairaVillanueva/Argus/releases/tag/0.1.0)
+[![License](https://img.shields.io/cocoapods/l/AFNetworking.svg)](https://github.com/KairaVillanueva/Argus/blob/master/LICENSE)
+[![Platform](https://img.shields.io/badge/platform-xcode-blue.svg)](https://developer.apple.com/xcode/)
 
 ## About
 
