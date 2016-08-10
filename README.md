@@ -28,7 +28,7 @@ pod "Argus"
 
 ## Author
 
-Kaira Villanueva, fzf.villanueva@gmail.com
+Kaira Villanueva, [@kairavillanueva](http://twitter.com/kairavillanueva)
 
 ## License
 
