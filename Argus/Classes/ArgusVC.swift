@@ -15,7 +15,7 @@ class ArgusVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     let imagePicker = UIImagePickerController()
     
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         // * Call the AR VIEW
         setUpARView()
     }
@@ -40,16 +40,16 @@ class ArgusVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCo
         imagePicker.allowsEditing = false
         
         // * User can access camera
-        imagePicker.sourceType = .Camera
+        imagePicker.sourceType = .camera
         
         // * Hide camera default controls
         imagePicker.showsCameraControls = false
         
         // * Spreads out the camera view to full screen
-        imagePicker.cameraViewTransform = CGAffineTransformMakeScale(2, 2)
+        imagePicker.cameraViewTransform = CGAffineTransform(scaleX: 2, y: 2)
         
         // * Pop up view with camera
-        presentViewController(imagePicker, animated: true, completion: nil)
+        present(imagePicker, animated: true, completion: nil)
         
         // * Add overlay to camera
         imagePicker.cameraOverlayView = cameraOverlay()
@@ -60,24 +60,24 @@ class ArgusVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     func cameraOverlay() -> UIView {
         
         // * Define camera overlay with frame
-        let cam_overlay: UIView! = UIView(frame: CGRectMake(0, 0, arImageView.frame.width, arImageView.frame.height))
+        let cam_overlay: UIView! = UIView(frame: CGRect(x: 0, y: 0, width: arImageView.frame.width, height: arImageView.frame.height))
         
         // * Camera overlay set background to transparent
-        cam_overlay.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.01)
+        cam_overlay.backgroundColor = UIColor.white.withAlphaComponent(0.01)
         
         // * Duplicates behavior of the view's autoresizing mask
         cam_overlay.translatesAutoresizingMaskIntoConstraints = true
         
         // * Int bit mask lets the receiver resizes itself when its superview’s bounds change
-        cam_overlay.autoresizingMask = [ .FlexibleTopMargin, .FlexibleBottomMargin,
-                                         .FlexibleLeftMargin, .FlexibleRightMargin ]
+        cam_overlay.autoresizingMask = [ .flexibleTopMargin, .flexibleBottomMargin,
+                                         .flexibleLeftMargin, .flexibleRightMargin ]
         
         // * Center of the frame within the view
-        cam_overlay.center = CGPointMake(view.bounds.midX, view.bounds.midY)
+        cam_overlay.center = CGPoint(x: view.bounds.midX, y: view.bounds.midY)
         
-        // * Text to display on camera overlay  
+        // * Text to display on camera overlay
         // * This is an example -- feel free to change anything
-        let sampleText = UILabel(frame: CGRectMake((arImageView.frame.width / 2) - 50, (arImageView.frame.height / 2) - 50, 100, 100))
+        let sampleText = UILabel(frame: CGRect(x: (arImageView.frame.width / 2) - 50, y: (arImageView.frame.height / 2) - 50, width: 100, height: 100))
         sampleText.text = "AR VIEW"
         
         // * Adds button to camera overlay
